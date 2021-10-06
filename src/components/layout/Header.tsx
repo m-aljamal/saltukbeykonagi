@@ -7,7 +7,7 @@ import { mainLinks } from "src/constant/mainLinks";
 
 export default function Header() {
   return (
-    <nav className=" absolute  w-full py-2 ">
+    <nav className="  relative    w-full  py-5  bg-darkGray ">
       <div className="flex  items-center container justify-between">
         <div>
           {mainLinks.map((l, i) => (
@@ -16,13 +16,14 @@ export default function Header() {
             </Link>
           ))}
         </div>
-        <div className="relative h-44 w-full ">
+        <div className=" absolute top-0 z-40 bg-darkGray h-40 w-60 left-0 right-0 mx-auto   rounded-3xl ">
           <Image
             src="/logo.png"
             layout="fill"
             objectFit="contain"
             objectPosition="center"
             alt="logo"
+            className="w-full"
           />
         </div>
         <ul className="flex gap-10">

@@ -11,8 +11,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
-        <div className=" fixed z-[-1] w-full">
+      <main>
+        <div>
           <AppCarousel />
         </div>
       </main>

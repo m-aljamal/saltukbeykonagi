@@ -3,7 +3,7 @@ import Header from "./Header";
 
 const Layout: FC = ({ children }) => {
   return (
-    <div>
+    <div className="relative">
       <Header />
       {children}
     </div>
