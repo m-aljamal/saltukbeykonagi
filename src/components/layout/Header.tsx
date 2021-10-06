@@ -7,7 +7,7 @@ import { mainLinks } from "src/constant/mainLinks";
 
 export default function Header() {
   return (
-    <nav className=" absolute   w-full py-2 ">
+    <nav className=" absolute  w-full py-2 ">
       <div className="flex  items-center container justify-between">
         <div>
           {mainLinks.map((l, i) => (
@@ -16,8 +16,14 @@ export default function Header() {
             </Link>
           ))}
         </div>
-        <div className="relative  ">
-          <Image src="/logo.jpeg" width={175} height={100} alt="logo" />
+        <div className="relative h-44 w-full ">
+          <Image
+            src="/logo.png"
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center"
+            alt="logo"
+          />
         </div>
         <ul className="flex gap-10">
           {socialLinks.map((s) => (
