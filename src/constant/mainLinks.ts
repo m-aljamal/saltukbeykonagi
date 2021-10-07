@@ -9,7 +9,7 @@ export const mainLinks = [
   },
 
   {
-    service: "service",
+    text: "service",
     link: "service",
   },
 ];

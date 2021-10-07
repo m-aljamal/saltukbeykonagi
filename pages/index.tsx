@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import AppCarousel from "src/components/AppCarousel";
+import AboutSection from "src/components/Views/AboutSection";
+import AppCarousel from "src/components/Views/AppCarousel";
 const Home: NextPage = () => {
   return (
     <div>
@@ -12,9 +13,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <div>
-          <AppCarousel />
-        </div>
+        <AppCarousel />
+        <AboutSection />
       </main>
     </div>
   );

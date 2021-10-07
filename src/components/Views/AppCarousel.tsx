@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 export default function AppCarousel() {
   return (
-    <div>
+    <section>
       <Carousel
         infiniteLoop
         showStatus={false}
@@ -14,7 +14,7 @@ export default function AppCarousel() {
         <CarouselImage src="https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80" />
         <CarouselImage src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" />
       </Carousel>
-    </div>
+    </section>
   );
 }
 
