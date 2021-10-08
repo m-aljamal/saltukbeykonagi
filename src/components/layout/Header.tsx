@@ -1,9 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ExternalIconLink from "../ExternalIconLink";
-import { socialLinks } from "src/constant/socialLinks";
 import { mainLinks } from "src/constant/mainLinks";
+import SocialMedia from "./SocialMedia";
 
 export default function Header() {
   return (
@@ -26,13 +25,7 @@ export default function Header() {
             className="w-full"
           />
         </div>
-        <ul className="md:flex gap-10 hidden">
-          {socialLinks.map((s) => (
-            <li className="cursor-pointer" key={s.href}>
-              <ExternalIconLink href={s.href} iconName={s.icon} />
-            </li>
-          ))}
-        </ul>
+        <SocialMedia />
       </div>
     </nav>
   );

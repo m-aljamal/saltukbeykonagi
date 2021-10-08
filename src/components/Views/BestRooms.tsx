@@ -3,8 +3,8 @@ export default function BestRooms() {
   return (
     <section className="my-8 container">
       <h2 className="text-center text-3xl text-mainYello">Best Rooms</h2>
-      <div className="flex mt-8 gap-5">
-        <div className="w-1/2 ">
+      <div className="md:flex mt-8 gap-5">
+        <div className="md:w-1/2 ">
           <div className="relative h-96">
             <Image
               layout="fill"
@@ -21,7 +21,7 @@ export default function BestRooms() {
             </p>
           </div>
         </div>
-        <div className="w-1/2 grid grid-cols-2 gap-5">
+        <div className="md:w-1/2  grid sm:grid-cols-2  grid-cols-1 gap-5 mt-5 md:mt-0">
           <RoomImage src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80" />
           <RoomImage src="https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1121&q=80" />
           <RoomImage src="https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" />
@@ -34,7 +34,7 @@ export default function BestRooms() {
 
 const RoomImage = ({ src }: { src: string }) => {
   return (
-    <div className="relative ">
+    <div className="relative h-64 md:h-auto">
       <Image layout="fill" alt="room" src={src} className="rounded-md" />
       <p className="absolute bottom-0 left-4 text-white bg-mainYello p-1 rounded-md mb-2">
         Family room

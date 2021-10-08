@@ -4,12 +4,12 @@ export const mainLinks = [
     link: "home",
   },
   {
-    text: "about",
-    link: "about",
+    text: "Rooms",
+    link: "rooms",
   },
 
   {
-    text: "service",
-    link: "service",
+    text: "Contact",
+    link: "contact",
   },
 ];

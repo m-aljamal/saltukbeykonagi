@@ -4,7 +4,7 @@ export default function SpecialRooms() {
   return (
     <section className=" mt-32 bg-darkGray">
       <div className="flex flex-col-reverse md:flex-row gap-8 items-center">
-        <div className="md:w-1/2 w-full grid grid-cols-2 ">
+        <div className="md:w-1/2 w-full grid md:grid-cols-2 ">
           {specialRooms.map((s) => (
             <div key={s.title} className="relative h-72 ">
               <Image
@@ -17,7 +17,7 @@ export default function SpecialRooms() {
           ))}
         </div>
 
-        <div className=" container md:w-1/2 py-20 pr-10 ">
+        <div className=" container md:w-1/2 md:py-20 py-5 pr-10 ">
           <h2 className="text-mainYello text-3xl">
             SALTUK BEY KONAĞI BUTİK OTEL
           </h2>
