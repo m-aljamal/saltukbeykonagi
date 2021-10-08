@@ -3,6 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 import AboutSection from "src/components/Views/AboutSection";
 import AppCarousel from "src/components/Views/AppCarousel";
+import BestRooms from "src/components/Views/BestRooms";
+import SpecialRooms from "src/components/Views/SpecialRooms";
 const Home: NextPage = () => {
   return (
     <div>
@@ -15,6 +17,8 @@ const Home: NextPage = () => {
       <main>
         <AppCarousel />
         <AboutSection />
+        <SpecialRooms />
+        <BestRooms />
       </main>
     </div>
   );

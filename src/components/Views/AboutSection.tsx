@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function AboutSection() {
   return (
-    <section className="container flex  justify-between my-16 gap-10">
-      <div className="w-1/2">
+    <section className="container md:flex  justify-between my-16 gap-10">
+      <div className="md:w-1/2">
         <h4 className="text-mainYello mb-10">ABOUT US</h4>
         <h2 className="text-2xl font-bold">
           Welcome Hiroto Hotel In Street L’Abreuvoir
@@ -18,10 +18,10 @@ export default function AboutSection() {
         </p>
         <Image src="/signture.png" width={200} height={100} alt="signture" />
       </div>
-      <div className="flex gap-4 w-1/2">
+      <div className="flex gap-4 md:w-1/2 mt-5 md:mt-0">
         <div>
           <Image
-            className="rounded-md "
+            className="rounded-md"
             width={300}
             height={400}
             alt="hotel room"
