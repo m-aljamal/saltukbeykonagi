@@ -14,7 +14,7 @@ export interface IRoom {
 
 export default function Room({ room }: IRoom) {
   return (
-    <section className="md:flex my-12 shadow-lg rounded-md bg-mainBlack  md:h-96    ">
+    <section className="md:flex my-12 shadow-lg rounded-md bg-mainBlack   md:h-96    ">
       <div className="md:w-1/2">
         <Carousel infiniteLoop showStatus={false}>
           {room.images.map((image, i) => (
