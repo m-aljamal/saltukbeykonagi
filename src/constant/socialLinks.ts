@@ -1,14 +1,14 @@
 export const socialLinks = [
   {
     icon: "fab fa-facebook-square",
-    href: "#",
+    href: "https://www.facebook.com/SaltukBeyKonagi",
   },
   {
     icon: "fab fa-instagram",
-    href: "#",
+    href: "https://www.instagram.com/saltukbeykonagi/?hl=tr",
   },
-  {
-    icon: "fab fa-twitter",
-    href: "#",
-  },
+  // {
+  //   icon: "fab fa-twitter",
+  //   href: "#",
+  // },
 ];
