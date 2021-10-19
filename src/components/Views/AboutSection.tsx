@@ -25,7 +25,7 @@ export default function AboutSection() {
             width={300}
             height={400}
             alt="hotel room"
-            src="https://images.unsplash.com/photo-1590074072786-a66914d668f1?ixid=MnwxMjA3fDF8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            src="/images/5.webp"
           />
         </div>
         <div className="transform translate-y-14">
@@ -34,7 +34,7 @@ export default function AboutSection() {
             width={300}
             height={400}
             alt="hotel room"
-            src="https://images.unsplash.com/photo-1590074072786-a66914d668f1?ixid=MnwxMjA3fDF8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            src="/images/19.webp"
           />
         </div>
       </div>

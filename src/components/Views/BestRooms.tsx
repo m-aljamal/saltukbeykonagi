@@ -10,7 +10,7 @@ export default function BestRooms() {
               layout="fill"
               className=" rounded-t-md"
               alt="room"
-              src="https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+              src="/images/11.webp"
             />
           </div>
           <div className=" p-4 shadow-md  ">
@@ -22,10 +22,10 @@ export default function BestRooms() {
           </div>
         </div>
         <div className="md:w-1/2  grid sm:grid-cols-2  grid-cols-1 gap-5 mt-5 md:mt-0">
-          <RoomImage src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80" />
-          <RoomImage src="https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1121&q=80" />
-          <RoomImage src="https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" />
-          <RoomImage src="https://images.unsplash.com/photo-1519449556851-5720b33024e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" />
+          <RoomImage src="/images/12.webp" />
+          <RoomImage src="/images/13.webp" />
+          <RoomImage src="/images/14.webp" />
+          <RoomImage src="/images/15.webp" />
         </div>
       </div>
     </section>

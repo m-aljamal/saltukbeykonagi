@@ -10,9 +10,10 @@ export default function AppCarousel() {
         showStatus={false}
         className="h-[calc(100vh-64px)]"
       >
-        <CarouselImage src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" />
-        <CarouselImage src="https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80" />
-        <CarouselImage src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" />
+        <CarouselImage src="/images/1.webp" />
+        <CarouselImage src="/images/2.webp" />
+        <CarouselImage src="/images/3.webp" />
+        <CarouselImage src="/images/4.webp" />
       </Carousel>
     </section>
   );
