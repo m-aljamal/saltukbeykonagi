@@ -22,11 +22,11 @@ export default function SpecialRooms() {
             SALTUK BEY KONAĞI BUTİK OTEL
           </h2>
           <p className=" text-gray-400 mt-5 leading-8 text-justify  ">
-            beklentilerinizin siz söylemeden karşılık bulduğu, ayrıcalıkların ve
+            Beklentilerinizin siz söylemeden karşılık bulduğu, ayrıcalıkların ve
             farklılıkların Kilis teki yeni adresi. Sunduğumuz farklı konaklama
             alternatifleriyle, alışılagelmiş çizgilerin ötesinde, gelişimci ve
             yenilikçi hizmet anlayışımızla, dolayısıyla duyarlı ve estetik
-            yaklaşımlarımızla, değer kattığımız mekanlarımızda her detay sizin
+            yaklaşımlarımızla, değer kattığımız mekânlarımızda her detay sizin
             konfor ve memnuniyetinizi sağlamak için tasarlanmıştır.
             Misafirlerimizin memnuniyeti için benimsediğimiz temel ve etik
             ilkelerimiz, hizmetlerimizdeki kaliteyi sürekli geliştiren

@@ -3,18 +3,29 @@ export default function AboutSection() {
   return (
     <section className="container md:flex  justify-between my-16 gap-10">
       <div className="md:w-1/2">
-        <h4 className="text-mainYello mb-10">ABOUT US</h4>
-        <h2 className="text-2xl font-bold">
-          Welcome Hiroto Hotel In Street L’Abreuvoir
-        </h2>
+        <h4 className="text-mainYello mb-10">HAKKIMIZDA</h4>
+        <h2 className="text-2xl font-bold">Merhaba Kilis Sevdalıları !..</h2>
         <p className="text-gray-500 mt-3">
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-          fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-          sequi nesciunt.
+          Herşeyin bir öyküsü vardır, elbette bir de başlangıcı. Bizim de
+          öykümüz henüz yazılmaya başlandı. Öykümüzün adı Saltuk Bey Konağı
+          Butik Otel Saltuk Bey Konağı Butik Otel 10 odadan oluşmakta.
+          Odalarımız Kilis’in taş mekanlarını yansıtan dış mimarisiyle nostalji
+          esintileri getirirken iç şıklığıyla da kendinizi özel hissetmenizi
+          sağlıyor.
         </p>
         <p className="text-gray-500 mt-3">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque.
+          Aynı zamanda akşam sefası sevenler için havuz başını saran zeytin
+          ağaçlarıyla kaplı bahçemiz olup Kilis çarşısına çok kısa mesafede
+          olup, oradaki hareketliliğe ortak olabilirsiniz.
+        </p>
+        <p className="text-gray-500 mt-3">
+          {`
+Gaziantep'den 60 km uzaklıkta olan Saltuk Bey Konağı Butik Otel,
+Hatay'dan ise Kilis’e 150 km uzaklıkta olan Saltuk Bey Konağı Butik
+Otel ulaşım ile çok kolay.Otelimize ulaştıktan sonraki her türlü
+rahatlığınızın garantisi Saltuk Bey Konağı Butik Otel’dir. Özel
+araçlarınız için de otopark hizmeti veriyoruz.
+`}
         </p>
         <Image src="/signture.png" width={200} height={100} alt="signture" />
       </div>

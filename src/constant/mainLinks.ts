@@ -1,11 +1,11 @@
 export const mainLinks = [
   {
-    text: "home",
+    text: "Ana Sayfa",
     link: "/",
   },
   {
-    text: "Rooms",
-    link: "rooms",
+    text: "Odalar",
+    link: "odalar",
   },
 
   {
