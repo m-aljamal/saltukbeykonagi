@@ -27,7 +27,6 @@ rahatlığınızın garantisi Saltuk Bey Konağı Butik Otel’dir. Özel
 araçlarınız için de otopark hizmeti veriyoruz.
 `}
         </p>
-        <Image src="/signture.png" width={200} height={100} alt="signture" />
       </div>
       <div className="flex gap-4 md:w-1/2 mt-5 md:mt-0">
         <div>
