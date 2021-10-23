@@ -17,7 +17,7 @@ const ReversationForm = () => {
       </h2>
       <form
         onSubmit={handleSubmit}
-        className=" flex container items-center gap-10 pt-5  pb-8 justify-center "
+        className=" flex container flex-wrap items-center gap-10 pt-5  pb-8 justify-center "
       >
         <div>
           <Input
@@ -27,19 +27,19 @@ const ReversationForm = () => {
             name="Giriş-tarihi"
           />
           <Input
-            required={false}
-            type="text"
-            text="Kişi sayısı:"
-            name="Kişi-sayısı"
+            required
+            type="date"
+            text="Çıkış tarihi *"
+            name="Çıkış-tarihi"
           />
         </div>
 
         <div>
           <Input
-            required
-            type="date"
-            text="Çıkış tarihi *"
-            name="Çıkış-tarihi"
+            required={false}
+            type="text"
+            text="Kişi sayısı:"
+            name="Kişi-sayısı"
           />
           <Input
             required={false}

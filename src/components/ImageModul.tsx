@@ -30,8 +30,6 @@ const ImageModul = ({
     }
   };
 
-  console.log(index);
-
   return (
     <>
       {shouldShow && (

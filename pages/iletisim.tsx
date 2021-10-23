@@ -3,8 +3,17 @@ import React from "react";
 import Form from "src/components/Form";
 import HeroImage from "src/components/HeroImage";
 import { contacts } from "src/data/contancts";
+import { useForm, ValidationError } from "@formspree/react";
 
-export default function iletisim() {
+export default function Iletisim() {
+  const [state, handleSubmit] = useForm("moqyzkge");
+  if (state.succeeded) {
+    return (
+      <p className="text-center text-xl text-mainYello py-10 bg-mainBlack">
+        istek gönderildi
+      </p>
+    );
+  }
   return (
     <div>
       <Head>
@@ -30,6 +39,10 @@ export default function iletisim() {
             />
             <IconWithInfo
               text={contacts.phone}
+              icon="fas fa-phone text-mainYello "
+            />
+            <IconWithInfo
+              text={contacts.phone2}
               icon="fas fa-phone text-mainYello "
             />
 

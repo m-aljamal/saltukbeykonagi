@@ -30,7 +30,7 @@ const CarouselImage = ({ src }: { src: string }) => {
       <div className=" flex  flex-col justify-center items-center h-[100%]">
         <p className=" font-bold text-mainYello z-50">HOŞ GELDİNİZ</p>
         <h2 className=" text-4xl z-50 text-white font-bold">
-          Rahatlığın ve Keyfiniz için en iyisini yaşayın.
+          Rahatlığınız ve Keyfiniz için en iyisini yaşayın
         </h2>
       </div>
       <Image layout="fill" objectFit="cover" alt="image" src={src} />

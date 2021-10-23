@@ -5,15 +5,15 @@ export const mainLinks = [
   },
   {
     text: "Odalar",
-    link: "odalar",
+    link: "/odalar",
   },
   {
     text: "Galeri",
-    link: "galeri",
+    link: "/galeri",
   },
 
   {
     text: "İletişim",
-    link: "iletisim",
+    link: "/iletisim",
   },
 ];

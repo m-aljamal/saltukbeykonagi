@@ -14,11 +14,11 @@ export interface IRoom {
 
 export default function Room({ room }: IRoom) {
   return (
-    <section className="md:flex my-12 shadow-lg rounded-md bg-mainBlack   md:h-96    ">
+    <section className="md:flex my-12 shadow-lg rounded-md bg-mainBlack    md:h-[500px]  ">
       <div className="md:w-1/2">
         <Carousel infiniteLoop showStatus={false}>
           {room.images.map((image, i) => (
-            <div className="relative h-96 " key={i}>
+            <div className="relative h-[500px] " key={i}>
               <Image
                 src={image}
                 objectFit="cover"

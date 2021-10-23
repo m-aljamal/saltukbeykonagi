@@ -20,13 +20,21 @@ export default function Rooms() {
             DOĞANIN TAM İÇİNDE… SESSİZ… ÖZEL…
           </h2>
           <p className="mt-3 text-lg leading-8 text-gray-700">
-            Otelimiz Kilis’te, şehir merkezinde ve bir o kadar da Kilis’in
-            kokusunu en iyi şekilde duyabileceğiniz bir yerdedir. Eski mimari ve
-            tarihi dokusuyla dizayn edilmiş olan otelimizde aile odası, süit oda
-            ve standart oda seçenekleriyle beraber konaklama imkânlarını sizlere
-            sunuyoruz. Her odamızda bulunan merkezi klima sistemi, 82 ekran LED
-            TV, kasa, fön makinesi, yöresel kahvaltı toplantı salonu, mini bar
-            ve ultra konforlu yataklarımızla sizlere hizmet veriyoruz.
+            Otelimiz Kadim Medeniyetler Diyarı Kilis’te bulunan konukseverlik
+            anıtıdır. Saltuk Bey Konağı Butik Otel mimari yapısı restore
+            edilerek ve yüksek konfor teknolojileriyle donatılarak eski
+            görkemini günümüze taşımaktadır. Konukların ihtiyaçları en ince
+            detaylarına göre düşünülerek tasarlanan Saltuk Bey Konağı Butik
+            Otel, muhteşem odalarıyla misafirlerine konforlu ve kaliteli
+            konaklama hizmeti veriyor. Saltuk Bey Konağı Butik Otel ışık saçan
+            mimarisi ve huzur veren motifleri ile geçmişin dokusunu
+            yansıtmaktadır. Geçmişin pek çok dönemine tanıklık etmiş Saltuk Bey
+            Konağı Butik Otel değişen çağlara meydan okurcasına dimdik ayakta.
+            Saltuk Bey Konağı Butik Otel, taş işçiliğinin tüm görkemini yansıtan
+            karakteristik binası, Kilis şehrine hakim konumu, önemli tarihi
+            eserlere yakınlığıyla, ziyaretçilerine büyülü bir zaman yolculuğu
+            sunuyor. Restoran & Cafe bölümümüz ise konuklarını Kilis mutfağına
+            özgü mükemmel lezzetlerle ağırlıyor.
           </p>
         </div>
         <div className="my-10">

@@ -32,10 +32,10 @@ export const rooms = [
       "/images/24.webp",
       "/images/25.webp",
       "/images/26.webp",
-      ],
+    ],
     title: "Dublex",
     text: `
-    Doğa’nın içinde, ufukta deniz manzarasının eşlik ettiği villamız, keyifli bir tatil isteyen ve kişisel alanına önem veren çiftler için huzur dolu bir dinlenme fırsatı sunmaktadır. Şık dekorasyonuyla bütünleşmiş bir taş ev olan villamız, konforlu bir tatil için her imkanı barındırmaktadır 
+    Otelimiz Kilis’te, şehir merkezinde ve bir o kadar da Kilis’in kokusunu en iyi şekilde duyabileceğiniz bir yerdedir. Eski mimari ve tarihi dokusuyla dizayn edilmiş olan otelimizde aile odası, suit oda ve standart oda seçenekleriyle beraber konaklama imkânlarını sizlere sunuyoruz. Her odamızda bulunan merkezi klima sistemi, 82 ekran LED TV, kasa, fön makinesi, yöresel kahvaltı toplantı salonu, mini bar ve ultra konforlu yataklarımızla sizlere hizmet veriyoruz.
     `,
     services: [
       {

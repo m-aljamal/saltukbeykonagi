@@ -8,15 +8,15 @@ export default function Footer() {
       <div className="container">
         <div className="flex flex-col gap-5 md:flex-row  justify-between flex-wrap">
           <div>
-            <Title text="Our Address" />
+            <Title text="Adres" />
             <Content text={contacts.address} />
           </div>
           <div>
-            <Title text="Socials" />
+            <Title text="Sosyal Medya" />
             <SocialMedia />
           </div>
           <div>
-            <Title text="Phone" />
+            <Title text="İletişim" />
             <Content text={contacts.phone} />
           </div>
           <div>
