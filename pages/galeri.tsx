@@ -22,9 +22,7 @@ const Galeri = () => {
       </Head>
       <HeroImage src="/images/7.webp" />
       <div className=" container">
-        <h2 className="text-center my-10 text-mainYello text-xl">
-          KEŞFEDİN SALTUK BY OTEL
-        </h2>
+        <h2 className="text-center my-10 text-mainYello text-2xl">Galeri</h2>
         <div className=" grid md:grid-cols-3 grid-cols-1 gap-10 my-8">
           {imagesArry.map((image) => (
             <div

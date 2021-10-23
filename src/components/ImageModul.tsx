@@ -19,7 +19,7 @@ const ImageModul = ({
   }, [currentImage]);
 
   const handleNext = () => {
-    if (index < imagesArry.length) {
+    if (index < imagesArry.length - 1) {
       setIndex((i) => i + 1);
     }
   };
@@ -85,7 +85,7 @@ const ImageModul = ({
             </div>
             <Image
               className=" rounded-md"
-              src={imageUrl || imagesArry[index]}
+              src={index > 0 ? imagesArry[index] : imageUrl}
               layout="fill"
               alt="image"
             />
