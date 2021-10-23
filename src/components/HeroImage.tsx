@@ -1,12 +1,9 @@
 import React from "react";
 import Image from "next/image";
-const HeroImage = ({ src, text }: { src: string; text: string }) => {
+const HeroImage = ({ src }: { src: string }) => {
   return (
     <div className=" relative h-[500px]">
-      <Image alt="image" layout="fill" src={src} objectFit="cover"/>
-      <div className='container'>
-        <h2 className="  absolute text-3xl text-white top-1/2 ">{text}</h2>
-      </div>
+      <Image alt="image" layout="fill" src={src} objectFit="cover" />
     </div>
   );
 };

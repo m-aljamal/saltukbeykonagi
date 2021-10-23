@@ -7,6 +7,10 @@ export const mainLinks = [
     text: "Odalar",
     link: "odalar",
   },
+  {
+    text: "Galeri",
+    link: "galeri",
+  },
 
   {
     text: "İletişim",

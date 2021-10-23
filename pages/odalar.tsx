@@ -13,7 +13,7 @@ export default function Rooms() {
         <meta name="description" content="saltukbeykonagi" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <HeroImage src="/images/2.webp" text="Odalar" />
+      <HeroImage src="/images/2.webp" />
       <div className="container">
         <div className="text-center my-8">
           <h2 className="text-2xl text-mainYello">

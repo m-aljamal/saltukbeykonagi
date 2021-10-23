@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import ReversationForm from "src/components/ReversationForm";
 import AboutSection from "src/components/Views/AboutSection";
 import AppCarousel from "src/components/Views/AppCarousel";
 import BestRooms from "src/components/Views/BestRooms";
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
 
       <main>
         <AppCarousel />
+        <ReversationForm />
         <AboutSection />
         <SpecialRooms />
         <BestRooms />
