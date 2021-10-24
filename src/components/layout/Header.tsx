@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <nav className="relative w-full py-5 bg-darkGray">
       <div className="flex flex-col-reverse md:flex-row  items-center container justify-between">
-        <div className="flex gap-10 ">
+        <div className="flex gap-5 ">
           {mainLinks.map((l, i) => (
             <Link href={l.link} key={i}>
               <a className="   text-white">{l.text}</a>
@@ -25,7 +25,7 @@ export default function Header() {
             className="w-full"
           />
         </div>
-        <SocialMedia />
+        <SocialMedia style="hidden" />
       </div>
     </nav>
   );

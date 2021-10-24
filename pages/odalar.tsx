@@ -8,16 +8,11 @@ import Head from "next/head";
 export default function Rooms() {
   return (
     <div>
-      <Head>
-        <title>saltukbeykonagi</title>
-        <meta name="description" content="saltukbeykonagi" />
-        <link rel="icon" href="/logo.png" />
-      </Head>
       <HeroImage src="/images/2.webp" />
       <div className="container">
         <div className="text-center my-8">
           <h2 className="text-2xl text-mainYello">
-            DOĞANIN TAM İÇİNDE… SESSİZ… ÖZEL…
+            Saltuk Bey Konağı Butik Otel
           </h2>
           <p className="mt-3 text-lg leading-8 text-gray-700">
             Otelimiz Kadim Medeniyetler Diyarı Kilis’te bulunan konukseverlik

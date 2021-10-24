@@ -15,11 +15,6 @@ const Galeri = () => {
 
   return (
     <div>
-      <Head>
-        <title>saltukbeykonagi</title>
-        <meta name="description" content="saltukbeykonagi" />
-        <link rel="icon" href="/logo.png" />
-      </Head>
       <HeroImage src="/images/7.webp" />
       <div className=" container">
         <h2 className="text-center my-10 text-mainYello text-2xl">Galeri</h2>

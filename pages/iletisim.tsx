@@ -16,11 +16,6 @@ export default function Iletisim() {
   }
   return (
     <div>
-      <Head>
-        <title>saltukbeykonagi</title>
-        <meta name="description" content="saltukbeykonagi" />
-        <link rel="icon" href="/logo.png" />
-      </Head>
       <HeroImage src="/images/26.webp" />
       <div className="container my-10">
         <iframe

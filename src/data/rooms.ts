@@ -33,7 +33,7 @@ export const rooms = [
       "/images/25.webp",
       "/images/26.webp",
     ],
-    title: "Dublex",
+
     text: `
     Otelimiz Kilis’te, şehir merkezinde ve bir o kadar da Kilis’in kokusunu en iyi şekilde duyabileceğiniz bir yerdedir. Eski mimari ve tarihi dokusuyla dizayn edilmiş olan otelimizde aile odası, suit oda ve standart oda seçenekleriyle beraber konaklama imkânlarını sizlere sunuyoruz. Her odamızda bulunan merkezi klima sistemi, 82 ekran LED TV, kasa, fön makinesi, yöresel kahvaltı toplantı salonu, mini bar ve ultra konforlu yataklarımızla sizlere hizmet veriyoruz.
     `,

@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
           <div>
             <Title text="Sosyal Medya" />
-            <SocialMedia />
+            <SocialMedia style="flex" />
           </div>
           <div>
             <Title text="İletişim" />
