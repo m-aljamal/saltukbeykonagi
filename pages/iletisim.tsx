@@ -6,7 +6,7 @@ import { contacts } from "src/data/contancts";
 import { useForm, ValidationError } from "@formspree/react";
 
 export default function Iletisim() {
-  const [state, handleSubmit] = useForm("moqyzkge");
+  const [state, handleSubmit] = useForm("xdobaznw");
   if (state.succeeded) {
     return (
       <p className="text-center text-xl text-mainYello py-10 bg-mainBlack">
