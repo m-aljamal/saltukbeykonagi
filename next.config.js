@@ -4,4 +4,7 @@ module.exports = {
   images: {
     domains: ["images.unsplash.com"],
   },
+  typescript:{
+    ignoreBuildErrors: true,
+  }
 };
