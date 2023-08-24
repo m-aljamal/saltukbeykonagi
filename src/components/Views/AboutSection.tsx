@@ -8,7 +8,7 @@ export default function AboutSection() {
         <p className="text-gray-500 mt-3">
           Herşeyin bir öyküsü vardır, elbette bir de başlangıcı. Bizim de
           öykümüz henüz yazılmaya başlandı. Öykümüzün adı Saltuk Bey Konağı
-          Butik Otel Saltuk Bey Konağı Butik Otel 10 odadan oluşmakta.
+           Saltuk Bey Konağı  10 odadan oluşmakta.
           Odalarımız Kilis’in taş mekanlarını yansıtan dış mimarisiyle nostalji
           esintileri getirirken iç şıklığıyla da kendinizi özel hissetmenizi
           sağlıyor.
@@ -20,10 +20,9 @@ export default function AboutSection() {
         </p>
         <p className="text-gray-500 mt-3">
           {`
-Gaziantep'den 60 km uzaklıkta olan Saltuk Bey Konağı Butik Otel,
-Hatay'dan ise Kilis’e 150 km uzaklıkta olan Saltuk Bey Konağı Butik
-Otel ulaşım ile çok kolay.Otelimize ulaştıktan sonraki her türlü
-rahatlığınızın garantisi Saltuk Bey Konağı Butik Otel’dir. Özel
+Gaziantep'den 60 km uzaklıkta olan Saltuk Bey Konağı ,
+Hatay'dan ise Kilis’e 150 km uzaklıkta olan Saltuk Bey Konağı ulaşım ile çok kolay.Otelimize ulaştıktan sonraki her türlü
+rahatlığınızın garantisi Saltuk Bey Konağı ’dir. Özel
 araçlarınız için de otopark hizmeti veriyoruz.
 `}
         </p>

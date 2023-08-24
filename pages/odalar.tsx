@@ -17,8 +17,7 @@ export default function Rooms() {
             anıtıdır. Saltuk Bey Konağı Otel mimari yapısı restore
             edilerek ve yüksek konfor teknolojileriyle donatılarak eski
             görkemini günümüze taşımaktadır. Konukların ihtiyaçları en ince
-            detaylarına göre düşünülerek tasarlanan Saltuk Bey Konağı Butik
-            Otel, muhteşem odalarıyla misafirlerine konforlu ve kaliteli
+            detaylarına göre düşünülerek tasarlanan Saltuk Bey Konağı, muhteşem odalarıyla misafirlerine konforlu ve kaliteli
             konaklama hizmeti veriyor. Saltuk Bey Konağı Otel ışık saçan
             mimarisi ve huzur veren motifleri ile geçmişin dokusunu
             yansıtmaktadır. Geçmişin pek çok dönemine tanıklık etmiş Saltuk Bey
