@@ -17,7 +17,7 @@ export default function SEO({
       ></meta>
       <meta
         name="keywords"
-        content="Kilis , Otel , Butik , Konak , Tarih , Suriye , Mülteci , Hotel , Rezervasyon, Konaklama , Uygun"
+        content="Kilis , Otel , Konak , Tarih , Suriye , Mülteci , Hotel , Rezervasyon, Konaklama , Uygun"
       ></meta>
       <meta property="og:image:secure_url" content="/logo.png" />
       <meta property="og:url" content="https://www.saltukbeykonagi.com/" />

@@ -17,8 +17,8 @@ export default function Room({ room }: IRoom) {
     <section className="md:flex my-12 shadow-lg rounded-md bg-mainBlack md:h-[500px]  ">
       <div className="md:w-1/2">
         <Carousel infiniteLoop showStatus={false}>
-          {room.images.map((image, i) => (
-            <div className="relative h-[500px] " key={i}>
+          {room.images.map((image) => (
+            <div className="relative h-[500px] " key={image}>
               <Image
                 src={image}
                 objectFit="cover"

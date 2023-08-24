@@ -84,7 +84,7 @@ const ImageModul = ({
             <Image
               className=" rounded-md"
               src={index > 0 ? imagesArry[index] : imageUrl}
-              layout="fill"
+              fill
               alt="image"
             />
           </div>

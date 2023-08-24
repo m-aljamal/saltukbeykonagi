@@ -6,7 +6,7 @@ export default function FooterLogo() {
     <div className="relative flex justify-between items-center  ">
       <div className={lineStyle}></div>
       <div className=" md:w-[400px] w-[700px]">
-        <Image src="/logo.png" width={200} height={200} alt="logo" />
+        <Image src="/logo2.png" width={200} height={200} alt="logo" />
       </div>
       <div className={lineStyle}></div>
     </div>

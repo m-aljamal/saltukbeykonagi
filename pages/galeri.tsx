@@ -1,4 +1,3 @@
-import Head from "next/head";
 import React, { useState } from "react";
 import HeroImage from "src/components/HeroImage";
 import ImageModul from "src/components/ImageModul";
@@ -29,7 +28,7 @@ const Galeri = () => {
                 className="rounded-md "
                 alt="Galeri"
                 src={image}
-                layout="fill"
+                fill
                 objectFit="cover"
               />
             </div>

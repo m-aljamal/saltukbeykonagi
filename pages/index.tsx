@@ -1,6 +1,4 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import SEO from "src/components/layout/SEO";
 import ReversationForm from "src/components/ReversationForm";
 import AboutSection from "src/components/Views/AboutSection";
 import AppCarousel from "src/components/Views/AppCarousel";

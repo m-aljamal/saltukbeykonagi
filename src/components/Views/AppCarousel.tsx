@@ -33,7 +33,7 @@ const CarouselImage = ({ src }: { src: string }) => {
           Rahatlığınız ve Keyfiniz için en iyisini yaşayın
         </h2>
       </div>
-      <Image layout="fill" objectFit="cover" alt="image" src={src} />
+      <Image  fill objectFit="cover" alt="image" src={src} />
     </div>
   );
 };

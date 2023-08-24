@@ -7,12 +7,7 @@ export default function SpecialRooms() {
         <div className="md:w-1/2 w-full grid md:grid-cols-2 ">
           {specialRooms.map((s) => (
             <div key={s.title} className="relative h-72 ">
-              <Image
-                src={s.image}
-                alt={s.title}
-                layout="fill"
-                objectFit="cover"
-              />
+              <Image src={s.image} alt={s.title} fill objectFit="cover" />
             </div>
           ))}
         </div>
@@ -31,7 +26,7 @@ export default function SpecialRooms() {
             Misafirlerimizin memnuniyeti için benimsediğimiz temel ve etik
             ilkelerimiz, hizmetlerimizdeki kaliteyi sürekli geliştiren
             anlayışımız ve sunduğumuz olanaklar ile hizmetinizdeyiz. Saltuk Bey
-            Konağı Butik Otel prestijli bir butik otelinden daha fazlası.
+            Konağı Otel prestijli bir otelinden daha fazlası.
           </p>
         </div>
       </div>
